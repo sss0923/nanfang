@@ -1,0 +1,25 @@
+{
+  "generated": "2026-10-18T21:10:39+08:00",
+  "sections": [
+    {
+      "id": "mockups",
+      "label": "Mockups",
+      "groups": [
+        {
+          "slug": "fund-announcement-assistant",
+          "files": [
+            {
+              "label": "基金公告运营助手",
+              "path": "mockups/fund-announcement-assistant/index.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design-systems",
+      "label": "Design Systems",
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "fund-announcement-assistant-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild src/assistant.jsx --bundle --minify --outfile=dist/app.js",
+    "dev": "esbuild src/assistant.jsx --bundle --outfile=dist/app.js --watch"
+  },
+  "dependencies": {
+    "@esbuild/win32-x64": "0.25.10",
+    "esbuild": "0.25.10",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  }
+}

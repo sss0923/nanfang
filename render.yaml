@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: fund-announcement-assistant
+    runtime: python
+    rootDir: opendesign/mockups/fund-announcement-assistant
+    plan: free
+    buildCommand: python -m py_compile server.py
+    startCommand: python server.py
+    healthCheckPath: /api/status
+    envVars:
+      - key: FUND_DEMO_HOST
+        value: 0.0.0.0
+      - key: AI_PROVIDER
+        value: deepseek
+      - key: DEEPSEEK_MODEL
+        value: deepseek-chat
+      - key: DEEPSEEK_API_KEY
+        sync: false
